@@ -1,0 +1,28 @@
+{
+  "selected_experiment": "exploration_decay",
+  "selected_setting": "decay_0.995",
+  "selection_rule": "Highest mean validation reward across three training seeds; ties use highest mean reward over training.",
+  "validation_mean_reward": 8.05,
+  "training_mean_reward": -10.354133333333332,
+  "baseline_settings": {
+    "alpha": 0.1,
+    "gamma": 0.99,
+    "epsilon_start": 1.0,
+    "epsilon_min": 0.01,
+    "epsilon_decay": 0.999,
+    "episodes": 10000,
+    "action_noise": 0.0
+  },
+  "best_settings": {
+    "alpha": 0.1,
+    "gamma": 0.99,
+    "epsilon_start": 1.0,
+    "epsilon_min": 0.01,
+    "epsilon_decay": 0.995,
+    "episodes": 10000,
+    "action_noise": 0.0
+  },
+  "final_training_seed": 42,
+  "test_episodes": 300,
+  "test_seed": 20000
+}

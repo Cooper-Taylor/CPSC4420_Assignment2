@@ -1,0 +1,2 @@
+label,alpha,gamma,epsilon_start,epsilon_min,epsilon_decay,episodes,action_noise,training_seeds,validation_episodes_per_seed,validation_mean_reward,validation_seed_reward_std,validation_success_rate,validation_mean_steps,training_mean_reward,first_1000_mean_reward,last_1000_mean_reward,last_1000_reward_std
+baseline,0.1,0.99,1.0,0.01,0.999,10000,0.0,3,100,8.05,0.0,1.0,12.949999999999998,-31.5401,-353.4873333333333,7.505,3.4837884653397393
